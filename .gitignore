@@ -1,0 +1,43 @@
+# Sui Move build artifacts
+build/
+*.mv
+*.mvd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Node (se houver frontend)
+node_modules/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test files
+test.txt
+test2.txt
+**/test*.txt
+
+# Local scripts
+*.ps1
+
+# Generated files
+*.pdf
+docs/*.html
+
